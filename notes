@@ -1,0 +1,19 @@
+node version key thing installed: 14.x
+
+all nginx file are located in /etc/nginx/
+
+folders containing site code are located in /var/www/html/
+
+to build a react app run the following commands
+
+1) git clone <url>
+2) npm install
+3) npm run build
+
+
+test nginx syntax: sudo ngninx -t
+restart nginx: sudo service nginx restart
+to publish a site do the following 
+1) build the static html page
+2) move the build folder to /var/www/html/
+3) rename the folder to the name of the website it should fall under
